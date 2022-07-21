@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.font-primary {
+  color: #00abae;
+  border: 0;
+}
+
+.title.icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+header{
+  width: 80%;
+  margin: 2rem auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  font-size: 45px;
+}
+
+
+p {
+  font-size: 16px;
+}
+.navbar a {
+  padding: 10px;
+  margin-top: -30px;
+  text-decoration: none;
+}
+.navbar-portfolio {
+  text-decoration: none;
+  font-size: 35px;
+}
+nav a {
+  justify-content: flex-end;
+}
+
+main {
+  width: 80%;
+  margin: 2rem auto;
+}
+ .intro {
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+ }
+
+ .intro .text {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+ }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 1rem 0rem;
+ }
+
+ .intro .img-profile img {
+    width: 400px;
+ }
+
+
+ /************************************
+ ********Media Screen
+ ***************************************/
+ @media only screen and (max-width:600px) {
+   .intro {
+     flex-direction: column-reverse;
+   }
+   .para {
+     flex-direction: column;
+   }
+  }
+
+.para {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: justify;
+}
+
+.image_skills {
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  place-items: center;
+}
+
+/* .projects{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+} */
+/* .buttons {
+    display: flex;
+
+}
+.buttons h3{
+    background-color: #00abae;
+    word-spacing: 5px;
+} */
+.para2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    
+}
+.part1{
+    width: 50%;
+    
+}
+.part2{
+    width: 50%;
+    
+}
+.part2 img{
+    width: 100%;
+}
+.buttons button{
+    background-color: #00abae;
+    padding: 10px;
+    border: 0;
+}
+.main .para{
+    display: flex;
+}
+
+/***********************************
+*********Media Screen
+************************************/
+@media only screen and (max-width:600px) {
+  .para2 {
+    flex-direction: column-reverse;
+  }
+  .part1 {
+    width: 100%;
+  }
+  .part2 {
+    width: 100%;
+  }
+}
+
+
+footer{
+    text-align: center;
+  
+}
+footer .icons img{
+  width: 50px;
+}
+ 
